@@ -16,7 +16,7 @@ li {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 31px;
 
   letter-spacing: 0.03em;
 
@@ -31,23 +31,21 @@ li {
   color: #2196f3;
 }
 
-.nav-list {
+.nav-list a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 16px;
   letter-spacing: 0.02em;
-}
 
-.nav-list-link {
   color: #212121;
 }
 
-.info-list-contacts {
+.info-list-contacts a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 16px;
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -62,7 +60,10 @@ li {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 
   color: #212121;
 }
@@ -75,22 +76,28 @@ li {
   border-radius: 4px;
 }
 
-.projects h2 {
+.container li {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.container h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 2;
+  line-height: 36px;
 
   letter-spacing: 0.06em;
 
   color: #212121;
 }
 
-.projects p {
+.container p {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 30px;
 
   letter-spacing: 0.03em;
 
@@ -106,7 +113,7 @@ li {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 24px;
 
   letter-spacing: 0.03em;
 
@@ -117,7 +124,7 @@ li {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 24px;
 
   letter-spacing: 0.03em;
 

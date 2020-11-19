@@ -16,7 +16,7 @@ li {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 31px;
 
   letter-spacing: 0.03em;
 
@@ -31,23 +31,21 @@ li {
   color: #2196f3;
 }
 
-.nav-list {
+.nav-list a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 16px;
   letter-spacing: 0.02em;
-}
 
-.nav-list-link {
   color: #212121;
 }
 
-.info-list-contacts {
+.info-list-contacts a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 16px;
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -61,7 +59,7 @@ li {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.3;
+  line-height: 60px;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -78,60 +76,80 @@ li {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.9;
-}
-
-.bg-button:hover {
-  background: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.9;
+  line-height: 30px;
 }
 
 .features-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 1.2;
+  font-size: 14px;
+  line-height: 16px;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 
   color: #212121;
 }
 
 .features-title-link {
+  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 24px;
 
   letter-spacing: 0.03em;
 
   color: #757575;
 }
-
-.feauters-title {
+.specificity {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 42px;
+  text-align: center;
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+
+.team-bg {
+  background: #f5f4fa;
 }
 
 .team {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 42px;
+
+  text-align: center;
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+
+.team-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.team-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 
 .footer-bg {
@@ -143,7 +161,7 @@ li {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 24px;
 
   letter-spacing: 0.03em;
 
@@ -154,7 +172,7 @@ li {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 24px;
 
   letter-spacing: 0.03em;
 
