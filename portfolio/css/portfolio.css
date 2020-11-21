@@ -1,5 +1,17 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --portfolio-bg-color: #f5f4fa;
+  --portfolio-button-active-color: #ffffff;
+  --container-bg-color: #ffffff;
+  --background-text-color: #2f303a;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --footer-accent: #ffffff;
+}
+
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 li {
@@ -11,53 +23,59 @@ li {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .webstudio-link {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .span-studio {
-  color: #000000;
-}
-
-.nav-list a:hover {
-  color: #2196f3;
+  color: var(--primary-text-color);
 }
 
 .nav-list a {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--primary-text-color);
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: var(--accent-color);
 }
 
 .info-list-contacts a {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--title-text-color);
+}
+
+.info-list-contacts a:hover,
+.info-list-contacts a:focus {
+  color: var(--accent-color);
 }
 
 .portfolio {
-  background: #f5f4fa;
+  background: var(--portfolio-bg-color);
   border-radius: 4px;
 }
 
 .portfolio-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -65,11 +83,12 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
-.portfolio button:hover {
-  background: #2196f3;
+.portfolio button:hover,
+.portfolio button:focus {
+  background: var(--accent-color);
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -77,56 +96,58 @@ li {
 }
 
 .container li {
-  background: #ffffff;
+  background: var(--container-bg-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
 .container h2 {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 36px;
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .container p {
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--title-text-color);
 }
 
 .footer-bg {
-  font-style: normal;
-  background: #2f303a;
+  background: var(--background-text-color);
+}
+
+.footer-bg a:hover,
+.footer-bg a:focus {
+  color: var(--accent-color);
 }
 
 .footer-list-item {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--footer-accent);
 }
 
 .footer-list {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 
   letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-text-color);
 }
