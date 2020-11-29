@@ -71,11 +71,11 @@ a {
 }
 
 .portfolio {
-  background: var(--portfolio-bg-color);
   border-radius: 4px;
 }
 
 .portfolio-link {
+  background: var(--portfolio-bg-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
